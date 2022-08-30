@@ -48,6 +48,13 @@
       "method": "blah blah blah",
       "cookingTime": "45 minutes",
       "id": "94WiQ-3"
+    },
+    {
+      "title": "Chickpea Curry",
+      "ingredients": [],
+      "method": "blah blah blah blah",
+      "cookingTime": "35 minutes",
+      "id": "FLjLZGA"
     }
   ]
 }
