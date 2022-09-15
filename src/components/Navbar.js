@@ -4,11 +4,11 @@ import Searchbar from "./Searchbar";
 import { useTheme } from '../hooks/useTheme';
 
 export default function Navbar() {
-  const { color } = useTheme()
+  const { color, changeColor } = useTheme()
 
   return (
     <div className="navbar" style={{ background: color }}>
-      <nav>
+      <nav onClick={() => changeColor('tomato')}>
         <Link to="/" className="brand">
           <h1>Cooking React</h1>
         </Link>
