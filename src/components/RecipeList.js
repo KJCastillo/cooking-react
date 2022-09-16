@@ -1,12 +1,12 @@
 import "./RecipeList.css";
 import { Link } from "react-router-dom";
-import { useTheme } from '../hooks/useTheme'
+import { useTheme } from "../hooks/useTheme";
 
 export default function RecipeList({ recipes }) {
-  const { mode } = useTheme()
+  const { mode } = useTheme();
 
-  if (recipes.length === 0){
-    return <div className="error">No Recipes found</div>
+  if (recipes.length === 0) {
+    return <div className="error">No Recipes found</div>;
   }
 
   return (
